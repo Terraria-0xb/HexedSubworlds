@@ -1,0 +1,24 @@
+﻿Mods: {
+	HexedSubworlds: {
+		UI: {
+			SaveAndQuitInSubworld: "Leave Subworld"
+		}
+
+		Config: {
+			VotingTime: {
+				Label: "Multiplayer Voting Time"
+				Tooltip: "The time, in seconds, that players will have to vote on enterting a subworld in multiplayer."
+			}
+		}
+
+		Messages: {
+			VotingStartedEnter: "{0} wants to enter {1}!\nType '/vote yes' or '/vote no'. The majority of players have to vote for 'yes' to travel there."
+			VotingStartedExit: "{0} wants to leave {1}!\nType '/vote yes' or '/vote no'. The majority of players have to vote for 'yes' to leave."
+			Vote: "You voted for {0}"
+			Already: "Vote failed! Make sure that you typed the command correctly, and that you haven't already voted."
+			VoteTie: "The vote was a tie! Not entering the subworld/"
+			VoteFail: "The result was 'no'! Not entering the subworld."
+			VoteSucceed: "The result was 'yes'! Entering the subworld."
+		}
+	}
+}

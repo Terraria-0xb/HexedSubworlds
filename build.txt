@@ -1,0 +1,3 @@
+displayName = Hexed Subworlds
+author = 0xb
+version = 0.1
